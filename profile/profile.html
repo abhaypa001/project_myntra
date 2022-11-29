@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+    <link rel="stylesheet" href="profile.css">
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link href="../utils.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="containerHeader">
+        <nav class="flex space-between">
+          <div class="left flex items-center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Myntra_Logo.png"/>
+            <ul id = "navbar" class="flex items-center justify-center uppercase semibold">
+              <li id="megamenu_container"><a href="../men.php">men</a></li>
+                <li><a href="../women.php">women</a></li>
+                <li><a href="#">kids</a></li>
+                 </ul>
+          </div>
+          <div class="right flex items-center">
+            <input class="search" placeholder="Search for products, brands and more" class="desktop-searchBar" value="" data-reactid="904">
+            <div class="rightBox">
+              <div class="profile mx-2 " id="reggDropdown">
+              <div id="drop">
+                <a href="/Profile/profile.html" class="dropList">login</a>
+                <a href="/Profile/signup.html" class="dropList">sign up</a>
+            </div>
+            <i class="fa-regular fa-user"></i>
+              <span>profile</span></div>
+            <div class="wishlist mx-2"><i class="fa-regular fa-heart"></i>
+              <span>wishlist</span></div>
+            <div class="bag mx-2 fa-solid "> <i class="fa-solid fa-bag-shopping"></i>
+              <span>bag</span></div>
+              </div>
+              
+            
+          </div>
+          
+      </div>
+        </nav>
+      </header>
+
+
+
+    <div id="boxbody">
+        <form action="loginconnect.php" method="post">
+
+       <div class="signin">
+                
+           <h2>Login</h2>
+           <div>
+           <input type="tel" placeholder="Mobile Number*" id="mob" name="number">
+           <input type="password" placeholder="Enter password" id="pass" name = "password">
+        </div>   
+           <p>By continuing, I agree to the <span> Terms of     Use </span> and <span>privacy policy</span>  </p>
+       
+           <input type="submit" class = "submit uppercase" value="continue">
+             <p>Have trouble logging in?<span> Get help</span> </p>
+            
+             
+    
+        </div>
+    </form>
+    </div>
+</body>
+</html>
+
